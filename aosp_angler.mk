@@ -38,5 +38,5 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     OpenCamera
 
-PRODUCT_PACKAGES += \
-    AOSPLinks
+#PRODUCT_PACKAGES += \
+#    AOSPLinks

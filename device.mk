@@ -230,16 +230,16 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0-impl
 
 #CAMERA
-PRODUCT_PACKAGES += \
-    camera.device@3.2-impl \
-    android.hardware.camera.provider@2.4-impl \
-    camera.msm8994 \
-    libcamera \
-    libmmcamera_interface \
-    libmmcamera_interface2 \
-    libmmjpeg_interface \
-    libqomx_core \
-    mm-qcamera-app
+#PRODUCT_PACKAGES += \
+#    camera.device@3.2-impl \
+#    android.hardware.camera.provider@2.4-impl \
+#    camera.msm8994 \
+#    libcamera \
+#    libmmcamera_interface \
+#    libmmcamera_interface2 \
+#    libmmjpeg_interface \
+#    libqomx_core \
+#    mm-qcamera-app
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -287,7 +287,6 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
     libwpa_client \
     hostapd \
     wlutil \
@@ -295,6 +294,7 @@ PRODUCT_PACKAGES += \
     wifilogd \
     wpa_supplicant \
     wpa_supplicant.conf
+#removed:     android.hardware.wifi@1.0-service
 
 # Bluetooth HAL
 PRODUCT_PACKAGES += \
